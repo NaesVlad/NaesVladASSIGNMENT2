@@ -1,5 +1,7 @@
 # NaesVladASSIGNMENT2
 
+#adding student details
+
 class Student:
     def __init__(self, id, name, age, major):
         self.__id = id
@@ -27,6 +29,7 @@ class Student:
     def display_student(self):
         print(f"ID: {self.__id}, Name: {self.__name}, Age: {self.__age}, Major: {self.__major}")
 
+#adding options to be chosen
 
 class StudentRepository:
     def __init__(self):
@@ -56,6 +59,7 @@ class StudentRepository:
         for student in self.students:
             student.display_student()
 
+#adding functionality to the code
 
 class StudentDatabase(StudentRepository):
     pass  
