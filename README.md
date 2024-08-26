@@ -3,8 +3,6 @@
 The system runs by providing a menu of options to the user. The user selects an option, and the system performs the corresponding action. For example, if the user selects "Add a new student," the system prompts for the student's information and adds it to the database.
 The system also has a feature that removes a student if necessary.
 
-##The Code
-
 #adding student details
 
 class Student:
