@@ -3,6 +3,13 @@
 The system runs by providing a menu of options to the user. The user selects an option, and the system performs the corresponding action. For example, if the user selects "Add a new student," the system prompts for the student's information and adds it to the database.
 The system also has a feature that removes a student if necessary.
 
+## Changes made to the code
+The changes made are 
+1. The "class Student" function had 2 jobs one being to give a way for student details to be added and a display student details task , but now there's a separate area in the code to handle the display student details job
+2. An error handling feature was added for when someone puts in invalid information which the previous code did not
+3. The options to be selected like "Add new student", "remove student", "update student" and "show all students" were added
+4. Functionality was added to the options listed previously
+
 ## The Code
 
 #adding student details
