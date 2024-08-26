@@ -4,6 +4,7 @@ The system runs by providing a menu of options to the user. The user selects an 
 The system also has a feature that removes a student if necessary.
 
 ##The Code
+
 #adding student details
 
 class Student:
